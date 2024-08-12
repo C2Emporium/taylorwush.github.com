@@ -1,0 +1,204 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc; /* Couleur de fond douce */
+    color: #333; /* Couleur du texte */
+}
+
+header {
+    background-color: #ff6f61; /* Rouge corail vibrant */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffe066; /* Jaune doré au survol */
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.home {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+    background-color: #1e3a8a; /* Bleu profond */
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #ffe066; /* Jaune doré */
+}
+
+.intro p {
+    font-size: 1.5rem;
+    color: #f4f4f4;
+}
+
+.about {
+    background-color: #fdf2f8; /* Rose clair */
+    padding: 50px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+.about-image img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 2;
+    max-width: 700px;
+    margin: 20px;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: #1e3a8a; /* Bleu profond */
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 1.1rem;
+    }
+}
+
+.contact {
+    background-color: #fdf2f8; /* Rose clair */
+    color: #1e3a8a; /* Bleu profond */
+}
+
+.projects {
+    background-color: #ff6f61; /* Rouge corail */
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    background-color: #fff;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px); /* Légère élévation au survol */
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #1e3a8a; /* Bleu profond */
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: #f7f9fc;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #1e3a8a; /* Bleu profond */
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff6f61; /* Rouge corail au survol */
+}
+
+footer {
+    background-color: #1e3a8a; /* Bleu profond */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}

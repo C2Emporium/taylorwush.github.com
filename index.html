@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="intro">
+            <h1>Bienvenue sur mon Portfolio</h1>
+            <p>Je suis un designer passionné de création visuelle.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-image">
+                <img src="Taylor Wush texture.png" alt="Photo de moi">
+            </div>
+            <div class="about-text">
+                <h2>À propos de moi</h2>
+                <p>Je suis un designer passionné, spécialisé dans la création d'expériences visuelles captivantes. Avec plusieurs années d'expérience en design graphique, web design, et UI/UX, j'apporte une touche unique à chaque projet. Mon approche centrée sur l'utilisateur me permet de créer des solutions esthétiques et fonctionnelles qui répondent aux besoins de mes clients.</p>
+                <p>Ma mission est de transformer les idées en réalités tangibles en m'appuyant sur mon expertise et ma créativité. J'aime explorer de nouvelles tendances et techniques pour repousser les limites du design, tout en restant fidèle à ma philosophie de simplicité et d'efficacité.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="projects" class="projects">
+        <h2>Mes Projets</h2>
+        <div class="project-list">
+            <div class="project">
+                <img src="6.png" alt="Projet 1">
+                <h3>TikTok Live</h3>
+                <p>.......................</p>
+            </div>
+            <div class="project">
+                <img src="9.png" alt="Projet 2">
+                <h3>Flyer</h3>
+                <p>.......................</p>
+            </div>
+            <div class="project">
+                <img src="7.png" alt="Projet 1">
+                <h3>Party Flyer</h3>
+                <p>.......................</p>
+            </div>
+            <div class="project">
+                <img src="8.png" alt="Projet 2">
+                <h3>Party Flyer</h3>
+                <p>.......................</p>
+            </div>
+            <div class="project">
+                <img src="10.png" alt="Projet 1">
+                <h3>TikTok Live</h3>
+                <p>.......................</p>
+            </div>
+            <div class="project">
+                <img src="3.png" alt="Projet 2">
+                <h3>Party Flyer</h3>
+                <p>.......................</p>
+            </div>
+            <div class="project">
+                <img src="1.png" alt="Projet 1">
+                <h3>Party Flyer</h3>
+                <p>.......................</p>
+            </div>
+            <div class="project">
+                <img src="2.png" alt="Projet 2">
+                <h3>Party Flyer</h3>
+                <p>.......................</p>
+            </div>
+            <!-- Ajoute plus de projets ici -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactez-moi</h2>
+        <form action="contact.php" method="POST">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        
+            <button type="submit">Envoyer</button>
+        </form>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Taylor Wush</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
